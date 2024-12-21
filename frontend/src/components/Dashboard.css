@@ -1,0 +1,29 @@
+.dashboard {
+    background-color: #ffffff; /* Updated to pure white for cleaner look */
+    padding: 25px;
+    border-radius: 10px; /* Increased border radius for softer edges */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    text-align: center;
+    margin: 30px auto;
+    width: 70%; /* Reduced width for a more compact appearance */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added hover effect */
+}
+
+.dashboard:hover {
+    transform: scale(1.02); /* Subtle zoom on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.dashboard h2 {
+    font-size: 2.2em; /* Slightly increased font size */
+    color: #222; /* Darker shade for better contrast */
+    margin-bottom: 15px;
+    font-weight: bold; /* Emphasize the heading */
+}
+
+.dashboard p {
+    font-size: 1.6em; /* Increased font size */
+    color: #388e3c; /* Slightly darker green for better readability */
+    margin-top: 5px;
+    font-weight: 600; /* Make the text more prominent */
+}

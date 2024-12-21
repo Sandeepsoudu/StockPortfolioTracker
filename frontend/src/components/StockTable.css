@@ -1,0 +1,78 @@
+.stock-table {
+    margin: 20px auto;
+    width: 95%; /* Adjusted width for better responsiveness */
+    max-width: 1200px; /* Added a max-width for larger screens */
+    border-collapse: collapse;
+    font-size: 1em;
+    background-color: #ffffff; /* Changed to pure white for a clean look */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increased shadow for a subtle depth */
+    border-radius: 10px; /* Rounded edges for a modern feel */
+    overflow: hidden; /* Ensures content stays within rounded corners */
+}
+
+.stock-table th {
+    background-color: #4caf50; /* Added a header background color */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centered header text */
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.stock-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.stock-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Slightly lighter even rows for better readability */
+}
+
+.stock-table tr:hover {
+    background-color: #f1f1f1; /* Softer hover effect */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.stock-table button {
+    padding: 7px 12px; /* Adjusted padding for better proportions */
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em; /* Consistent button font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.stock-table .edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.stock-table .edit-btn:hover {
+    background-color: #218838;
+}
+
+.stock-table .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.stock-table .delete-btn:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .stock-table {
+        font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+
+    .stock-table th, 
+    .stock-table td {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .stock-table button {
+        font-size: 0.8em; /* Smaller buttons for smaller screens */
+        padding: 5px 8px;
+    }
+}
